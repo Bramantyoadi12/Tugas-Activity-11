@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "205081378414",
+    "project_id": "fbkelasa-2b3be",
+    "storage_bucket": "fbkelasa-2b3be.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:205081378414:android:31bce60b62b8c171d1707f",
+        "android_client_info": {
+          "package_name": "com.example.fbkelasa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "205081378414-ojeko6hmtp74jlc0b92j2n6f7b8pv0hk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpgKGkGDwWfvT-qmg_9nfHDHotZuiGFVc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "205081378414-ojeko6hmtp74jlc0b92j2n6f7b8pv0hk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
