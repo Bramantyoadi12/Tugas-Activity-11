@@ -29,7 +29,6 @@ public class LihatTeman extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_lihat_teman);
 
-        //inisialisasi untuk RecyclerView beserta komponennya
         rcView = (RecyclerView) findViewById(R.id.rv_utama);
         rcView.setHasFixedSize(true);
         layoutManager = new LinearLayoutManager(this);
@@ -49,8 +48,10 @@ public class LihatTeman extends AppCompatActivity {
 
                     dataTeman.add(tmn);
                 }
+
                 adapter = new AdapterLihatTeman(dataTeman,LihatTeman.this);
                 rcView.setAdapter(adapter);
+
             }
 
             @Override
